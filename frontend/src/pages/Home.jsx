@@ -31,7 +31,7 @@ export default function Home() {
       
       <div className='container mx-auto max-w-[1400px]'>
         <h2 className='text-3xl text-center font-bold mb-4 mt-14'>
-          Features
+          Đồng hồ bán chạy
         </h2>
         <ProductGrid products={placeholderProducts} />
       </div>

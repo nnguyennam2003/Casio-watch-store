@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { formatCurrency } from '../../helpers/formatCurrency'
 
 export default function ProductGrid({ products }) {
   return (
@@ -12,7 +13,7 @@ export default function ProductGrid({ products }) {
                 className='w-full h-full object-cover rounded-lg' />
             </div>
             <h3 className='text-sm mb-2'>{product.name}</h3>
-            <p className='text-gray-500 font-medium text-sm tracking-tighter'>${product.price}</p>
+            <p className='text-gray-500 font-medium text-sm tracking-tighter'>{formatCurrency(product.price)}</p>
           </div>
         </Link>
       ))}

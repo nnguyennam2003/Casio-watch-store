@@ -3,6 +3,7 @@ import { RiDeleteBin6Line } from 'react-icons/ri';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteCart } from '../../redux/slices/cartSlice';
 import { formatCurrency } from '../../helpers/formatCurrency'
+
 export default function CartContent() {
     const { listCarts } = useSelector((state) => state.carts)
     const dispatch = useDispatch()

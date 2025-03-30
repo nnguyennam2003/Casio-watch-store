@@ -91,77 +91,17 @@ router.delete('/:id', protect, admin, async (req, res) => {
 
 router.get('/', async (req, res) => {
     try {
-        const { collections, size, color, gender, minPrice, maxPrice, sortBy, search, category, material, brand, limit } = req.query
+        console.log("Received query params:", req.query)
+        const { category, gender } = req.query
 
         const query = {}
+        if (category) query.category = category
+        if (gender) query.gender = gender
 
-        if (collections && collections.toLocaleLowerCase() !== 'all') {
-            query.collections = collections
-        }
-
-        if (category && category.toLocaleLowerCase() !== 'all') {
-            query.category = category
-        }
-
-        if (material) {
-            query.material = { $in: material.split(',') }
-        }
-
-        if (brand) {
-            query.brand = { $in: brand.split(',') }
-        }
-
-        if (size) {
-            query.size = { $in: size.split(',') }
-        }
-
-        if (color) {
-            query.colors = { $in: color.split(',') }
-        }
-
-        if (gender) {
-            query.gender = gender
-        }
-
-        if (minPrice || maxPrice) {
-            query.price = {}
-            if (minPrice) {
-                query.price.$gte = Number(minPrice)
-            }
-            if (maxPrice) {
-                query.price.$lte = Number(maxPrice)
-            }
-        }
-
-        if (search) {
-            query.$or = [
-                { name: { $regex: search, $options: 'i' } },
-                { description: { $regex: search, $options: 'i' } }
-            ]
-        }
-
-        let sort = {}
-        if (sortBy) {
-            switch (sortBy) {
-                case 'priceAsc':
-                    sort = { price: 1 }
-                    break
-                case 'priceDesc':
-                    sort = { price: -1 }
-                    break
-                case 'popular':
-                    sort = { rating: -1 }
-                    break
-                default:
-                    break
-            }
-        }
-
-        let products = await Product.find(query).sort(sort).limit(Number(limit) || 0)
+        const products = await Product.find(query)
         res.json(products)
-
     } catch (error) {
-        console.log(error)
+        console.error(error)
         res.status(500).send("Server Error")
     }
 })

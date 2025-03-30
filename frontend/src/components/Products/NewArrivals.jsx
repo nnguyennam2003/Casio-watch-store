@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css/navigation'
 import { Navigation } from 'swiper/modules'
 import instance from '../../config/axiosConfig'
+import { formatCurrency } from '../../helpers/formatCurrency'
 
 export default function NewArrivals() {
   const newArrivalsRef = useRef(null)
@@ -47,9 +48,9 @@ export default function NewArrivals() {
   return (
     <section>
       <div className='container mx-auto max-w-[1400px] text-center mb-10'>
-        <h2 className='text-3xl font-bold mb-4'>Explore New Arrivals</h2>
+        <h2 className='text-3xl font-bold mb-4'>Mới ra mắt</h2>
         <p className='text-lg text-gray-600 mb-8'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestias nihil iusto accusantium, voluptatibus nisi provident?.
+          Mẫu Mới Nhất – Đón Đầu Xu Hướng!
         </p>
       </div>
 
@@ -71,7 +72,7 @@ export default function NewArrivals() {
             <div className='absolute bottom-0 left-0 right-0 bg-black/20 backdrop-blur text-white p-4 rounded-b-lg'>
               <Link to={`/product/${product._id}`} className='block'>
                 <h4 className='font-medium'>{product.name}</h4>
-                <p className='mt-1'>${product.price}</p>
+                <p className='mt-1'>{formatCurrency(product.price)}</p>
               </Link>
             </div>
           </SwiperSlide>

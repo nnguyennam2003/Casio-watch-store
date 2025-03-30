@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import instance from '../../config/axiosConfig'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart } from '../../redux/slices/cartSlice'
-
+import {formatCurrency} from '../../helpers/formatCurrency'
 export default function ProductDetail() {
     const { id } = useParams()
     const [mainImage, setMainImage] = useState(null)
@@ -101,10 +101,10 @@ export default function ProductDetail() {
                         </h1>
 
                         <p className='text-lg text-gray-600 mb-1 line-through'>
-                            {selectedProduct?.originalPrice && `${selectedProduct.originalPrice}`}
+                            {formatCurrency(selectedProduct?.price && `${selectedProduct.price}`)}
                         </p>
-                        <p className='text-xl text-red-500 mb-2'>
-                            $ {selectedProduct?.price}
+                        <p className='text-xl text-red-500 font-semibold mb-2'>
+                            {formatCurrency(selectedProduct?.discountPrice)}
                         </p>
                         <p className='text-gray-600 mb-4'>
                             {selectedProduct?.description}
@@ -129,20 +129,36 @@ export default function ProductDetail() {
                         </div>
 
                         <button onClick={handleAddToCart} disabled={loading} className={`bg-black text-white py-2 px-6 rounded w-full mb-4 ${loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-gray-900'}`}>
-                            {loading ? 'Adding to cart...' : 'Add to cart'}
+                            {loading ? 'Đang thêm...' : 'Thêm vào giỏ hàng'}
                         </button>
 
                         <div className='mt-10 text-gray-700'>
-                            <h3 className='text-xl font-bold mb-4'>Characteristics:</h3>
+                            <h3 className='text-xl font-bold mb-4'>Chi tiết sản phẩm:</h3>
                             <table className='w-full text-left text-sm text-gray-600'>
                                 <tbody>
                                     <tr>
-                                        <td className='py-1'>Brand</td>
+                                        <td className='py-1'>Thương hiệu</td>
                                         <td className='py-1'>Casio</td>
                                     </tr>
                                     <tr>
-                                        <td className='py-1'>Material</td>
-                                        <td className='py-1'>{selectedProduct?.material}</td>
+                                        <td className='py-1'>Mặt đồng hồ</td>
+                                        <td className='py-1'>{selectedProduct?.caseMaterial}</td>
+                                    </tr>
+                                    <tr>
+                                        <td className='py-1'>Chất liệu dây đeo</td>
+                                        <td className='py-1'>{selectedProduct?.bandMaterial}</td>
+                                    </tr>
+                                    <tr>
+                                        <td className='py-1'>Loại máy</td>
+                                        <td className='py-1'>{selectedProduct?.movement}</td>
+                                    </tr>
+                                    <tr>
+                                        <td className='py-1'>Kích thước bề mặt</td>
+                                        <td className='py-1'>{selectedProduct?.dialDiameter}mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td className='py-1'>Chống nước</td>
+                                        <td className='py-1'>{selectedProduct?.waterResistance}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -151,7 +167,7 @@ export default function ProductDetail() {
                 </div>
                 <div className='mt-20'>
                     <h2 className='text-2xl text-center font-medium mb-4'>
-                        You May Also Like
+                        Sản phẩm tương tự
                     </h2>
                     <ProductGrid products={similarProducts} />
                 </div>

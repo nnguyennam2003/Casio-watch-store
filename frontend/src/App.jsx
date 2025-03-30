@@ -49,7 +49,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
-          <Route path="collection/:collection" element={<CollectionPage />} />
+          <Route path="collection" element={<CollectionPage />} />
           <Route path="product/:id" element={<ProductDetail />} />
           {
             user ? (

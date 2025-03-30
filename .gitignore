@@ -10,4 +10,8 @@ backend/node_modules/
 frontend/.env
 backend/.env
 
+#data
+backend/data/
+backend/seeds/
+
 .DS_Store

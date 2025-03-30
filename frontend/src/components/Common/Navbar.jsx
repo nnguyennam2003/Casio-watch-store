@@ -24,14 +24,14 @@ export default function Navbar() {
             <nav className='container mx-auto max-w-[1400px] flex items-center justify-between py-4 px-6'>
                 {/* Logo */}
                 <div>
-                    <Link to={'/'} className='text-2xl font-medium'>Logo</Link>
+                    <Link to={'/'} className='text-2xl font-bold'>Casio</Link>
                 </div>
 
                 <div className='hidden md:flex space-x-6'>
-                    <Link to={'/collection/all'} className='text-gray-700 hover:text-black text-sm font-medium uppercase'>Nam</Link>
-                    <Link to={'#'} className='text-gray-700 hover:text-black text-sm font-medium uppercase'>Nữ</Link>
-                    <Link to={'#'} className='text-gray-700 hover:text-black text-sm font-medium uppercase'>Cặp đôi</Link>
+                    <Link to={'/collection'} className='text-gray-700 hover:text-black text-sm font-medium uppercase'>Sản phẩm</Link>
                     <Link to={'#'} className='text-gray-700 hover:text-black text-sm font-medium uppercase'>Phụ kiện</Link>
+                    <Link to={'#'} className='text-gray-700 hover:text-black text-sm font-medium uppercase'>Giới thiệu</Link>
+                    <Link to={'#'} className='text-gray-700 hover:text-black text-sm font-medium uppercase'>Liên hệ</Link>
                 </div>
                 <div className='flex items-center space-x-4'>
                     <Link to={'/profile'} className='hover:text-black'>
