@@ -8,22 +8,21 @@ export default function FeaturedCollection() {
                 {/* Left content */}
                 <div className='lg:w-1/2 p-8 text-center lg:text-left'>
                     <h2 className='text-lg font-semibold text-gray-700 mb-2'>
-                        Comfort and Style
+                        Bền bỉ và hiện đại
                     </h2>
                     <h2 className='text-4xl lg:text-5xl font-bold mb-6'>
-                        Lorem ipsum dolor sit amet consectetur.
+                        G-SHOCK - Mẫu đồng hồ không ngừng đặt ra các tiêu chuẩn mới về độ bền
                     </h2>
                     <p className='text-lg text-gray-600 mb-6'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum ipsam
-                        sit minus dicta, reprehenderit illo eos quo debitis veniam!
+                        CASIO GSHOCK GBD-200UU-1D là một mẫu đồng hồ mang màu đen đơn sắc được kết hợp với dây đeo bằng vải nhiều người ưa thích bởi sự hữu dụng và tính thời trang cao.
                     </p>
-                    <Link to={'/collections/all'} className='bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition'>
-                        Shop now
+                    <Link to={'/product/67ea0feec98254f72f6465b7'} className='bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition'>
+                        Xem ngay
                     </Link>
                 </div>
                 {/* Right content */}
                 <div className='lg:w-1/2'>
-                    <img src='https://www.casio.com/content/casio/locales/vn/vi/products/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_2021030223222084211/image.casiocoreimg.jpeg/1677474624173/gshock-brand-banner.jpeg'
+                    <img src='https://casio-hcm.vn/wp-content/uploads/2022/12/3-1.jpg'
                         className='w-full h-full object-cover lg:rounded-tr-3xl lg:rounded-br-3xl'
                         alt="image" />
                 </div>

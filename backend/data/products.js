@@ -283,7 +283,7 @@ const products = [
         gender: "Men",
         caseMaterial: "Kính sapphire",
         bandMaterial: "Dây cao su",
-        movement: "Digital",
+        movement: "Mechanical",
         waterResistance: "30m",
         dialDiameter: 48,
         images: [
@@ -319,7 +319,7 @@ const products = [
         gender: "Men",
         caseMaterial: "Kính khoáng cứng",
         bandMaterial: "Dây kim loại",
-        movement: "Digital",
+        movement: "Mechanical",
         waterResistance: "30m",
         dialDiameter: 28,
         images: [
@@ -339,6 +339,570 @@ const products = [
                 url: "https://casio-hcm.vn/wp-content/uploads/2023/12/2.jpg",
                 altText: "CASIO F-91WM-7A"
             },
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO MTP-1375D-7A",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio F-91WM-7A mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 889000,
+        discountPrice: 680000,
+        countInStock: 100,
+        sku: "MTP-1375D-7A",
+        category: "Luxury",
+        collections: "",
+        gender: "Men",
+        caseMaterial: "Kính sapphire",
+        bandMaterial: "Dây kim loại",
+        movement: "Digital",
+        waterResistance: "30m",
+        dialDiameter: 28,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/MTP-1375D-7AV.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/152754770_275265940617612_5667617872148515686_n-768x768.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/152365583_275266010617605_5079913619189591725_n-768x768.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/mtp_1375d_7avdf_b_005.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO MTP-V005D-1B",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 889000,
+        discountPrice: 680000,
+        countInStock: 100,
+        sku: "MTP-V005D-1B",
+        category: "Luxury",
+        collections: "",
+        gender: "Men",
+        caseMaterial: "Kính khoáng cứng",
+        bandMaterial: "Dây kim loại",
+        movement: "Mechanical",
+        waterResistance: "30m",
+        dialDiameter: 40,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/06/CASIO-MTP-V005D-1BUDF-2-600x600-1.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/06/D_NQ_NP_917520-MLB31525360217_072019-F.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/06/274057169_898923580799726_1007545990738783730_n-768x768.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/06/356851661_2510682779091268_2889634064625380661_n-768x636.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/06/356903584_2510682832424596_2740818836058587976_n.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO MTP-M305D-6A",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 889000,
+        discountPrice: 680000,
+        countInStock: 100,
+        sku: "MTP-M305D-6A",
+        category: "Luxury",
+        collections: "",
+        gender: "Women",
+        caseMaterial: "Kính khoáng",
+        bandMaterial: "Dây kim loại",
+        movement: "Mechanical",
+        waterResistance: "30m",
+        dialDiameter: 44.5,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2024/09/CASIO-MTP-M305D-6A.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2024/09/CASIO-MTP-M305D-6A-1-768x768.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2024/09/CASIO-MTP-M305D-6A-2.png",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO F-91WS-4",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 994000,
+        discountPrice: 730000,
+        countInStock: 100,
+        sku: "F-91WS-4",
+        category: "Casio General",
+        collections: "",
+        gender: "Women",
+        caseMaterial: "Kính nhựa",
+        bandMaterial: "Dây cao su",
+        movement: "Digital",
+        waterResistance: "30m",
+        dialDiameter: 35,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/10/F-91WS-4.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/10/359418944_2724582594351681_1451691773456438404_n.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/10/217951673_878256789569682_5506978176623660950_n.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/10/359352445_2318790868300494_2671874065291529437_n.jpg",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO LTP-V005D-4B",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 889000,
+        discountPrice: 680000,
+        countInStock: 100,
+        sku: "LTP-V005D-4B",
+        category: "Casio General",
+        collections: "",
+        gender: "Women",
+        caseMaterial: "Kính khoáng",
+        bandMaterial: "Dây kim loại",
+        movement: "Mechanical",
+        waterResistance: "30m",
+        dialDiameter: 35,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/06/image.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/06/87cf3201-00ba-4184-a575-1bb63971fb09.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/06/LTP-V005D-4B-1-2-768x768.webp",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/06/241305597_344112427496939_6972811138839206252_n.jpg",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO EDIFICE EQB-1100YD-1A",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 9500000,
+        discountPrice: 8500000,
+        countInStock: 100,
+        sku: "EQB-1100YD-1A",
+        category: "Casio Edifice",
+        collections: "",
+        gender: "Men",
+        caseMaterial: "Kính sapphire",
+        bandMaterial: "Dây kim loại",
+        movement: "Mechanical",
+        waterResistance: "50m",
+        dialDiameter: 44.5,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2024/01/CASIO-EDIFICE-EQB-1100YD-1A.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2024/01/CASIO-EDIFICE-EQB-1100YD-1A-1.jpg",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO EDIFICE EFV-600L-2A",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 3610000,
+        discountPrice: 2700000,
+        countInStock: 100,
+        sku: "EFV-600L-2A",
+        category: "Casio Edifice",
+        collections: "",
+        gender: "Men",
+        caseMaterial: "Kính sapphire",
+        bandMaterial: "Dây cao su",
+        movement: "Mechanical",
+        waterResistance: "50m",
+        dialDiameter: 44.5,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/05/EFV-600L-2AV.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/05/EFV-600L-2A-4-1624509175802.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/4-6-768x569.webp",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/1-4-768x768.webp",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO EDIFICE EFR-526D-1A",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 3610000,
+        discountPrice: 2700000,
+        countInStock: 100,
+        sku: "EFR-526D-1A",
+        category: "Casio Edifice",
+        collections: "",
+        gender: "Men",
+        caseMaterial: "Kính sapphire",
+        bandMaterial: "Dây kim loại",
+        movement: "Mechanical",
+        waterResistance: "50m",
+        dialDiameter: 44.5,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/08/CASIO-EDIFICE-EFR-526D-1A.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/08/c.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/08/a-1.webp",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/08/4.jpg",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO MQ-24D-7E",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 985000,
+        discountPrice: 750000,
+        countInStock: 100,
+        sku: "MQ-24D-7E",
+        category: "Casio General",
+        collections: "",
+        gender: "Women",
+        caseMaterial: "Kính sapphire",
+        bandMaterial: "Dây kim loại",
+        movement: "Mechanical",
+        waterResistance: "50m",
+        dialDiameter: 35,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2024/10/CASIO-MQ-24D-7E.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2024/10/CASIO-MQ-24D-7E-3-768x768.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2024/10/CASIO-MQ-24D-7E-1-768x768.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2024/10/CASIO-MQ-24D-7E-2.png",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO MTP-VT01L-1B2",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 1182000,
+        discountPrice: 900000,
+        countInStock: 100,
+        sku: "MTP-VT01L-1B2",
+        category: "Casio General",
+        collections: "",
+        gender: "Women",
+        caseMaterial: "Kính sapphire",
+        bandMaterial: "Dây cao su",
+        movement: "Mechanical",
+        waterResistance: "30m",
+        dialDiameter: 40,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/MTP-VT01L-1B2.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/3.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/2.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/6-768x768.webp",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO LTP-VT01GL-4B",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 1283000,
+        discountPrice: 930000,
+        countInStock: 100,
+        sku: "LTP-VT01GL-4B",
+        category: "Casio General",
+        collections: "",
+        gender: "Women",
+        caseMaterial: "Kính sapphire",
+        bandMaterial: "Dây cao su",
+        movement: "Mechanical",
+        waterResistance: "30m",
+        dialDiameter: 34,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/11/Capturev-z.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/11/12-1.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/11/13-1.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/11/1-3.jpg",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO LTP-V009D-4E",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 1183000,
+        discountPrice: 900000,
+        countInStock: 100,
+        sku: "LTP-V009D-4E",
+        category: "Casio General",
+        collections: "",
+        gender: "Women",
+        caseMaterial: "Kính sapphire",
+        bandMaterial: "Dây kim loại",
+        movement: "Mechanical",
+        waterResistance: "30m",
+        dialDiameter: 20,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/03/casio-ltp-v009d-4eudf-nu-2-1.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/03/casio-ltp-v009d-4eudf-nu-10-768x768.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2023/03/casio-ltp-v009d-4eudf-nu-12-768x768.jpg",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO LTP-VT01L-7B3",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 1182000,
+        discountPrice: 850000,
+        countInStock: 100,
+        sku: "LTP-VT01L-7B3",
+        category: "Casio General",
+        collections: "",
+        gender: "Women",
+        caseMaterial: "Kính sapphire",
+        bandMaterial: "Dây da",
+        movement: "Mechanical",
+        waterResistance: "30m",
+        dialDiameter: 30,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/LTP-VT01L-7B3.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/183233362_479004189997568_4506829144049991506_n.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/3-8.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2021/05/1-9.jpg",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO GSHOCK GMA-S2100-4A",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 3627000,
+        discountPrice: 2750000,
+        countInStock: 100,
+        sku: "GMA-S2100-4A",
+        category: "Casio Gshock",
+        collections: "",
+        gender: "Women",
+        caseMaterial: "Kính nhựa",
+        bandMaterial: "Dây da",
+        movement: "Digital",
+        waterResistance: "50m",
+        dialDiameter: 45,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/12/GMA-S2100-4A.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/12/1-1-768x768.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/12/2-768x768.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/12/4-1-768x768.jpg",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO GSHOCK GA-2110SU-3A",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 4103000,
+        discountPrice: 2990000,
+        countInStock: 100,
+        sku: "GA-2110SU-3A",
+        category: "Casio Gshock",
+        collections: "",
+        gender: "Men",
+        caseMaterial: "Kính nhựa",
+        bandMaterial: "Dây da",
+        movement: "Digital",
+        waterResistance: "50m",
+        dialDiameter: 45,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/07/GA-2110SU-3A.png",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/07/1.webp",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/07/zz.jpeg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/07/5.webp",
+                altText: "CASIO F-91WM-7A"
+            }
+        ],
+        rating: 4.5,
+        numReviews: 10,
+    },
+    {
+        name: "CASIO GSHOCK GBD-200UU-1D",
+        description: "Với thiết kế dây nhựa màu đen kết hợp với mặt đồng hồ màu bạc, Casio MTP-V005D-1B mang đậm chất kiểu cổ điển, đưa ta trở lại với những kỷ niệm của thập niên đầu 2000. Vẫn là sự nhẹ nhàng, mỏng manh nhưng lại được cải tiến với các tính năng hiện đại, đây thực sự là lựa chọn không thể bỏ qua cho những ai yêu thích phong cách thời trang đồng hồ độc đáo. F-91WM-7A không chỉ ghi điểm với vẻ bề ngoài mỏng nhẹ mà còn được làm từ chất liệu nhựa cao cấp, giúp sản phẩm trở nên bền bỉ và chắc chắn. Các chi tiết được nốt với nhau khít, chắc chắn, đồng thời có khả năng chống nước cao, phù hợp cho cả nam và nữ.",
+        price: 5721000,
+        discountPrice: 4300000,
+        countInStock: 100,
+        sku: "GBD-200UU-1D",
+        category: "Casio Gshock",
+        collections: "",
+        gender: "Men",
+        caseMaterial: "Kính nhựa",
+        bandMaterial: "Dây da",
+        movement: "Digital",
+        waterResistance: "50m",
+        dialDiameter: 45,
+        images: [
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/12/gbd-200uu-1_cd8ac26453c945a5b0064865377b31ce_master.webp",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/12/gbd-200uu-1__11669dc6542d40baa4ee5a5889312d73_master.webp",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/12/3-1.jpg",
+                altText: "CASIO F-91WM-7A"
+            },
+            {
+                url: "https://casio-hcm.vn/wp-content/uploads/2022/12/GBD-200UU-1DR-4_2048x-768x768.webp",
+                altText: "CASIO F-91WM-7A"
+            }
         ],
         rating: 4.5,
         numReviews: 10,

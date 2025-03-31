@@ -30,7 +30,7 @@ const productSchema = new mongoose.Schema({
     category: {
         type: String,
         required: true,
-        enum: ["Casio Baby-G", "Casio Edifice", "Casio General", "Casio Gshock", "Vintage", "Luxury", "Sheen", "Couple"],
+        enum: ["Casio Baby-G", "Casio Edifice", "Casio General", "Casio Gshock", "Luxury", "Sheen", "Couple"],
     },
     collections: {
         type: String,
