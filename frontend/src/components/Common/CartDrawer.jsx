@@ -42,8 +42,8 @@ export default function CartDrawer({ drawerOpen, toggleDrawer }) {
 
                     {listCarts?.products?.length > 0 && (
                         <div className='p-4 bg-white sticky bottom-0'>
-                            <button onClick={handleCheckout} className='w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition'>Checkout</button>
-                            <p className='text-sm tracking-tighter text-gray-500 mt-2 text-center'>Total: {formatCurrency(totalPrice)}</p>
+                            <button onClick={handleCheckout} className='w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition'>Thanh toán</button>
+                            <p className='text-sm tracking-tighter text-gray-500 mt-2 text-center'>Tổng: {formatCurrency(totalPrice)}</p>
                         </div>
                     )}
                 </>

@@ -18,18 +18,18 @@ export default function MyOrderPage() {
 
   return (
     <div className='max-w-7xl mx-auto p-4 sm:p-6'>
-      <h2 className='text-xl sm:text-2xl font-bold mb-6'>My Orders</h2>
+      <h2 className='text-xl sm:text-2xl font-bold mb-6'>Đơn hàng của tôi</h2>
       <div className='relative shadow-md sm:rounded-lg overflow-hidden'>
         <table className='min-w-full text-left text-gray-500'>
           <thead className='bg-gray-100 text-xs uppercase text-gray-700'>
             <tr>
-              <th className='py-2 px-4 sm:py-3'>Image</th>
-              <th className='py-2 px-4 sm:py-3'>Order ID</th>
-              <th className='py-2 px-4 sm:py-3'>Created</th>
-              <th className='py-2 px-4 sm:py-3'>Shipping Address</th>
-              <th className='py-2 px-4 sm:py-3'>Items</th>
-              <th className='py-2 px-4 sm:py-3'>Price</th>
-              <th className='py-2 px-4 sm:py-3'>Status</th>
+              <th className='py-2 px-4 sm:py-3'>Ảnh</th>
+              <th className='py-2 px-4 sm:py-3'>Mã đơn hàng</th>
+              <th className='py-2 px-4 sm:py-3'>Ngày đặt</th>
+              <th className='py-2 px-4 sm:py-3'>Thông tin</th>
+              <th className='py-2 px-4 sm:py-3'>Sản phẩm</th>
+              <th className='py-2 px-4 sm:py-3'>Giá</th>
+              <th className='py-2 px-4 sm:py-3'>Tình trạng</th>
             </tr>
           </thead>
           <tbody>
@@ -54,7 +54,7 @@ export default function MyOrderPage() {
             ) : (
               <tr>
                 <td colSpan={7} className='py-4 px-4 text-center text-gray-500'>
-                  You have no orders
+                  Bạn chưa có đơn hàng nào!
                 </td>
               </tr>
             )}

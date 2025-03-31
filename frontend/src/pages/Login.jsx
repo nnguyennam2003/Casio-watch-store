@@ -81,7 +81,7 @@ export default function Login() {
 
             <div className='hidden md:block w-1/2 bg-gray-800'>
                 <div className='h-full flex flex-col justify-center items-center'>
-                    <img src="https://www.casio.com/content/casio/locales/vn/vi/products/_jcr_content/root/responsivegrid/container_1450128435/carousel_copy_copy/image_1431869481_cop.casiocoreimg.jpeg/1721381310314/casio-24ss-web-1920pxx816px.jpeg"
+                    <img src="https://www.casio.com/content/casio/locales/vn/vi/products/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_2021030223222084211/image.casiocoreimg.jpeg/1677474624173/gshock-brand-banner.jpeg"
                         className='h-[750px] w-full object-cover'
                         alt="image" />
                 </div>

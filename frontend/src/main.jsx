@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import 'swiper/css'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 import { BrowserRouter } from 'react-router-dom'
 import store from './redux/store.js'

@@ -6,6 +6,7 @@ import ProductGrid from '../components/Products/ProductGrid'
 import FeaturedCollection from '../components/Products/FeaturedCollection'
 import FeaturesSection from '../components/Products/FeaturesSection'
 import instance from '../config/axiosConfig'
+import LoadingGrid from '../components/Loading/LoadingGrid'
 
 export default function Home() {
 
@@ -28,12 +29,18 @@ export default function Home() {
       <Hero />
       <GenderCollectionSection />
       <NewArrivals />
-      
+
       <div className='container mx-auto max-w-[1400px]'>
         <h2 className='text-3xl text-center font-bold mb-4 mt-14'>
           Đồng hồ bán chạy
         </h2>
-        <ProductGrid products={placeholderProducts} />
+
+        {placeholderProducts.length === 0 ? (
+          <div className='flex flex-col gap-y-8'>
+            <LoadingGrid />
+            <LoadingGrid />
+          </div>
+        ) : (<ProductGrid products={placeholderProducts} />)}
       </div>
 
       <FeaturedCollection />

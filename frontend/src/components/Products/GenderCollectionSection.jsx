@@ -7,9 +7,9 @@ export default function GenderCollectionSection() {
                 {/* Women Collection */}
                 <div className='relative flex-1'>
                     <img src="https://curnonwatch.com/blog/wp-content/uploads/2021/04/cac-loai-dong-ho-deo-tay-nu-098.jpg" alt="women"
-                        className='w-full h-[500px] object-cover'
+                        className='w-full h-[500px] object-cover rounded-2xl'
                     />
-                    <div className='absolute bottom-8 left-8 bg-white/80 p-4'>
+                    <div className='absolute bottom-8 left-8 bg-white/80 rounded-2xl p-4'>
                         <h2 className='text-2xl font-bold text-gray-900'>
                             Đồng hồ nữ
                         </h2>
@@ -17,9 +17,9 @@ export default function GenderCollectionSection() {
                 </div>
                 <div className='relative flex-1'>
                     <img src="https://www.homepaylater.vn/static/02a5449a3572799ffe846f3f0296655d/dbc82/cach_chon_dong_ho_nam_nhat_dinh_ban_phai_biet_ab2d8971b0.webp" alt="men"
-                        className='w-full h-[500px] object-cover'
+                        className='w-full h-[500px] object-cover rounded-2xl'
                     />
-                    <div className='absolute bottom-8 left-8 bg-white/80 p-4'>
+                    <div className='absolute bottom-8 left-8 bg-white/80 rounded-2xl p-4'>
                         <h2 className='text-2xl font-bold text-gray-900'>
                             Đồng hồ nam
                         </h2>

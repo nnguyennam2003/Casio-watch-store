@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import { formatCurrency } from '../helpers/formatCurrency'
 
 
 export default function OrderConfirmation() {
@@ -13,7 +14,7 @@ export default function OrderConfirmation() {
   return (
     <div className='max-w-4xl mx-auto p-6 bg-white'>
       <h1 className='text-4xl font-bold text-center text-emerald-700 mb-8'>
-        Thank you for your order!
+        Bạn đã đặt hàng thành công!
       </h1>
 
       {
@@ -22,14 +23,14 @@ export default function OrderConfirmation() {
             <div className='flex justify-between mb-20'>
               <div>
                 <h2 className='text-xl font-semibold'>
-                  Order ID: {order._id}
+                  Mã đơn hàng: {order._id}
                 </h2>
                 <p className='text-gray-500'>Order date: {new Date(order.createAt).toLocaleDateString()}</p>
               </div>
 
               <div>
                 <p className='text-emerald-700 text-sm'>
-                  Estimated Delivery: {" "}
+                  Dự kiến giao đến: {" "}
                   {calculateEstimatedDelivery(order.createAt)}
                 </p>
               </div>
@@ -45,8 +46,8 @@ export default function OrderConfirmation() {
                     </h4>
                   </div>
                   <div className='ml-auto text-right'>
-                    <p className='text-lg'>${item.price}</p>
-                    <p className='text-sm text-gray-500'>Quantity: {item.quantity}</p>
+                    <p className='text-lg'>{formatCurrency(item.price)}</p>
+                    <p className='text-sm text-gray-500'>Số lượng: {item.quantity}</p>
                   </div>
                 </div>
               ))}
@@ -54,11 +55,11 @@ export default function OrderConfirmation() {
 
             <div className='grid grid-cols-2 gap-8'>
               <div>
-                <h4 className='text-lg font-semibold mb-2'>Payment method</h4>
+                <h4 className='text-lg font-semibold mb-2'>Phương thức thanh toán</h4>
                 <p className='text-gray-600'>{order.paymentMethod}</p>
               </div>
               <div>
-                <h4 className='text-lg font-semibold mb-2'>Delivery</h4>
+                <h4 className='text-lg font-semibold mb-2'>Thông tin vận chuyển</h4>
                 <p className='text-gray-600'>
                   {order?.shippingAddress?.address}
                 </p>

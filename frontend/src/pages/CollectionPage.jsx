@@ -4,6 +4,7 @@ import FilterSidebar from '../components/Products/FilterSidebar'
 import SortOption from '../components/Products/SortOption'
 import ProductGrid from '../components/Products/ProductGrid'
 import instance from '../config/axiosConfig'
+import LoadingGrid from '../components/Loading/LoadingGrid'
 
 export default function CollectionPage() {
     const [products, setProducts] = useState([]);
@@ -13,6 +14,7 @@ export default function CollectionPage() {
         priceRange: [300000, 5000000],
         movement: [],
     });
+    const [loading, setLoading] = useState(false);
 
     const sidebarRef = useRef(null);
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -32,6 +34,7 @@ export default function CollectionPage() {
     }, [filters]);
 
     const fetchFilteredProducts = async () => {
+        setLoading(true)
         try {
             const res = await instance.get("/products", {
                 params: {
@@ -46,6 +49,8 @@ export default function CollectionPage() {
             setProducts(res.data);
         } catch (error) {
             console.error(error);
+        } finally {
+            setLoading(false); // Kết thúc loading
         }
     };
 
@@ -70,7 +75,18 @@ export default function CollectionPage() {
             <div className="grow p-4">
                 <SortOption />
 
-                <ProductGrid products={products} />
+                {
+                    loading ? (
+                        <div className='flex flex-col gap-y-8'>
+                            <LoadingGrid />
+                            <LoadingGrid />
+                            <LoadingGrid />
+                            <LoadingGrid />
+                        </div>
+                    ) : (
+                        <ProductGrid products={products} />
+                    )
+                }
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ export default function OrderDetail() {
 
   return (
     <div className='max-w-7xl mx-auto p-4 sm:p-6'>
-      <h2 className='text-2x md:text-3xl font-bold mb-6'>Order Details</h2>
+      <h2 className='text-2x md:text-3xl font-bold mb-6'>Chi tiết đơn hàng</h2>
       {!orderDetail ? (<p>No Order details found</p>) : (
         <div className='p-4 sm:p-6 rounded-lg border'>
           <div className='flex flex-col sm:flex-row justify-between mb-8'>
@@ -35,26 +35,26 @@ export default function OrderDetail() {
 
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-8'>
             <div>
-              <h4 className='text-lg font-semibold mb-2'>Payment info</h4>
-              <p>Payment method: {orderDetail.paymentMethod}</p>
-              <p>Status: {orderDetail.isPaid ? "Paid" : "Unpaid"}</p>
+              <h4 className='text-lg font-semibold mb-2'>Thông tin thanh toán</h4>
+              <p>Phương thức thanh toán: {orderDetail.paymentMethod}</p>
+              <p>Tình trạng: {orderDetail.isPaid ? "Paid" : "Unpaid"}</p>
             </div>
           </div>
 
           <div className='overflow-x-auto'>
-            <h4 className='text-lg font-semibold mb-4'>Products</h4>
+            <h4 className='text-lg font-semibold mb-4'>Sản phẩm</h4>
             <table className='min-w-full text-gray-600 mb-4'>
               <thead className="bg-gray-100">
                 <tr>
-                  <th className='py-2 px-4'>Name</th>
-                  <th className='py-2 px-4'>Unit Price</th>
-                  <th className='py-2 px-4'>Quantity</th>
-                  <th className='py-2 px-4'>Total</th>
+                  <th className='py-2 px-4'>Tên</th>
+                  <th className='py-2 px-4'>Giá</th>
+                  <th className='py-2 px-4'>Số lượng</th>
+                  <th className='py-2 px-4'>Tổng giá</th>
                 </tr>
               </thead>
               <tbody>
                 {!orderDetail.orderItems ? (<tr>
-                  <td>No order items found</td>
+                  <td>Chưa có đơn hàng nào!</td>
                 </tr>) : (
                   orderDetail.orderItems.map((item) => (
                     <tr key={item.productId} className='border-b border-gray-200'>
@@ -74,7 +74,7 @@ export default function OrderDetail() {
             </table>
           </div>
 
-          <Link to={'/my-orders'} className='text-blue-500 hover:underline'>Back to my orders</Link>
+          <Link to={'/my-orders'} className='text-blue-500 hover:underline'>Quay về</Link>
         </div>
       )}
     </div>

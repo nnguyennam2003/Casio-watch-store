@@ -50,6 +50,7 @@ const authSlice = createSlice({
             state.token = null
             state.role = null
             localStorage.removeItem("token")
+            localStorage.removeItem("user")
         }
     },
     extraReducers: (builder) => {
