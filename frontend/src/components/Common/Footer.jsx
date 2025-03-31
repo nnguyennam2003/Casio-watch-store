@@ -8,17 +8,17 @@ export default function Footer() {
         <footer className='border-t py-12 border-gray-200'>
             <div className='container mx-auto max-w-[1400px] grid grid-cols-1 md:grid-cols-4 gap-8 px-4 lg:px-0'>
                 <div>
-                    <h3 className='text-lg text-gray-800 mb-4'>Newsletter</h3>
+                    <h3 className='text-lg text-gray-800 mb-4'>Casio</h3>
                     <p className='text-gray-500 mb-4'>
-                        Be the first to know about new arrivals, sales & promos!
+                        Cam kết hàng chính hãng
                     </p>
                     <p className='text-sm font-medium text-gray-800 mb-6'>
-                        Sign up for our newsletter
+                        Đăng ký để được liên hệ tư vấn
                     </p>
 
                     <form className='flex'>
-                        <input type="email" placeholder='Enter your email' className='p-3 w-full text-sm border-t border-l border-b border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all' required />
-                        <button type='submit' className='bg-black text-white px-6 py-3 text-sm rounded-r-md hover:bg-gray-800 transition-all'>Subscribe</button>
+                        <input type="email" placeholder='Nhập email của bạn' className='p-3 w-full text-sm border-t border-l border-b border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all' required />
+                        <button type='submit' className='bg-black text-white px-6 py-3 text-sm rounded-r-md hover:bg-gray-800 transition-all'>Gửi</button>
                     </form>
                 </div>
                 {/* Shop links */}
@@ -69,7 +69,7 @@ export default function Footer() {
                         <a href="#" target='_blank' rel='noreferrer' className='hover:text-gray-500'><TbBrandMeta className='w-5 h-5' /></a>
                         <a href="#" target='_blank' rel='noreferrer' className='hover:text-gray-500'><TbBrandMeta className='w-5 h-5' /></a>
                     </div>
-                    <p className='text-gray-500'>Call Us</p>
+                    <p className='text-gray-500'>Liên hệ</p>
                     <p>
                         <FiPhoneCall className='inline-block mr-2' />
                         0987654321

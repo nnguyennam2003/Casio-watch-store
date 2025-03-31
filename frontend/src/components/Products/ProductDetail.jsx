@@ -5,6 +5,7 @@ import instance from '../../config/axiosConfig'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart } from '../../redux/slices/cartSlice'
 import {formatCurrency} from '../../helpers/formatCurrency'
+
 export default function ProductDetail() {
     const { id } = useParams()
     const [mainImage, setMainImage] = useState(null)
@@ -15,6 +16,10 @@ export default function ProductDetail() {
     const { loading } = useSelector(state => state.carts)
 
     const userId = JSON.parse(localStorage.getItem('user'))?._id
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [id])
 
     useEffect(() => {
         const fetchProduct = async () => {
