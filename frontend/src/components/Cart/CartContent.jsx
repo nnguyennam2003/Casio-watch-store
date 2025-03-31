@@ -15,7 +15,6 @@ export default function CartContent() {
 
     const handleDeleteCart = (productId) => {
         dispatch(deleteCart({ productId, userId }))
-        console.log({ productId, userId })
     }
 
     return (
@@ -38,7 +37,7 @@ export default function CartContent() {
                             <div>
                                 <p className='font-medium'>{formatCurrency(product.price)}</p>
                                 <button>
-                                    <RiDeleteBin6Line onClick={() => handleDeleteCart(product.productId)} className='w-6 h-6 mt-3 text-red-600' />
+                                    <RiDeleteBin6Line onClick={() => handleDeleteCart(product.productId)} className='w-6 h-6 mt-3 text-red-600 cursor-pointer' />
                                 </button>
                             </div>
                         </div>

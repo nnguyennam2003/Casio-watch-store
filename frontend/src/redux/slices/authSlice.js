@@ -21,13 +21,15 @@ export const registerUser = createAsyncThunk("auth/registerUser", async (userDat
 
 export const fetchUser = createAsyncThunk("auth/fetchUser", async (_, { rejectWithValue }) => {
     try {
-        const token = localStorage.getItem("token");
-        if (!token) return rejectWithValue("No token found");
+        const token = localStorage.getItem("token")
 
-        const response = await instance.get("/users/profile")
+        if (token) {
+            const response = await instance.get("/users/profile")
+            return response.data
+        } else {
+            return rejectWithValue("No token found")
+        }
 
-        // localStorage.setItem("user", JSON.stringify(response.data))
-        return response.data
     } catch (error) {
         return rejectWithValue(error.response.data);
     }
@@ -61,7 +63,7 @@ const authSlice = createSlice({
                 state.user = action.payload.user
                 state.token = action.payload.token
                 state.role = action.payload.user.role,
-                localStorage.setItem("token", action.payload.token)
+                    localStorage.setItem("token", action.payload.token)
                 localStorage.setItem("user", JSON.stringify(action.payload.user))
             })
             .addCase(loginUser.rejected, (state, action) => {
@@ -82,7 +84,7 @@ const authSlice = createSlice({
             })
             .addCase(registerUser.rejected, (state, action) => {
                 state.loading = false
-                state.error = action.payload
+                state.error = action.payload.errors
             })
 
             .addCase(fetchUser.pending, (state) => {

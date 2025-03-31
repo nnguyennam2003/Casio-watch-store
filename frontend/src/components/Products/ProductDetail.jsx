@@ -4,7 +4,8 @@ import { useParams } from 'react-router-dom'
 import instance from '../../config/axiosConfig'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart } from '../../redux/slices/cartSlice'
-import {formatCurrency} from '../../helpers/formatCurrency'
+import { formatCurrency } from '../../helpers/formatCurrency'
+import { toast } from 'sonner'
 
 export default function ProductDetail() {
     const { id } = useParams()
@@ -57,7 +58,8 @@ export default function ProductDetail() {
                 quantity,
                 userId
             }))
-        } 
+            toast.success('Thêm vào giỏ hàng thành công')
+        }
     }
 
     const handleQuantityChange = (type) => {
@@ -114,7 +116,7 @@ export default function ProductDetail() {
                         <p className='text-gray-600 mb-4'>
                             {selectedProduct?.description}
                         </p>
-                       
+
 
                         <div className='mb-6'>
                             <p className='text-gray-700'>Quantity:</p>

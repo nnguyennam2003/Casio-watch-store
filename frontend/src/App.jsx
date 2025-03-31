@@ -31,7 +31,10 @@ function App() {
   const { user } = useSelector(state => state.auth);
 
   useEffect(() => {
-    dispatch(fetchUser())
+    const token = localStorage.getItem("token");
+    if (token) {
+      dispatch(fetchUser())
+    }
   }, [dispatch])
 
   useEffect(() => {
@@ -42,7 +45,7 @@ function App() {
 
   return (
     <>
-      <Toaster position="top-right" />
+      <Toaster position="bottom-left" />
       <Routes>
         {/* Public Routes */}
         <Route path="/" element={<UserLayout />}>
